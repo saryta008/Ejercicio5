@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         on.setVisibility(View.INVISIBLE);
                         off.setVisibility(View.VISIBLE);
-                        Toast.makeText(MainActivity.this,"Llamada en curso\nPulsa el botón para colgar",Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this,"Llamada en curso\nPulsa el botón para colgar",Toast.LENGTH_LONG).show();
                         off.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
